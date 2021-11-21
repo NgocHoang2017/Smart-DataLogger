@@ -1,0 +1,24 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\LAM VIEC\TEST_SAN_PHAM\MODULE\MODULE nRF24L01\nrf_TEST_V2\nrf_TEST_V2\Project\code\keilC\GPIO.uvproj
+Project File Date:  09/10/2014
+
+<h2>Output:</h2>
+Build target 'GPIO'
+linking...
+Program Size: Code=6284 RO-data=336 RW-data=108 ZI-data=1700  
+FromELF: creating hex file...
+"..\..\output\GPIO.axf" - 0 Errors, 0 Warning(s).
+Build target 'GPIO'
+linking...
+Program Size: Code=6284 RO-data=336 RW-data=108 ZI-data=1700  
+FromELF: creating hex file...
+"..\..\output\GPIO.axf" - 0 Errors, 0 Warning(s).
+Build target 'GPIO'
+linking...
+Program Size: Code=6284 RO-data=336 RW-data=108 ZI-data=1700  
+FromELF: creating hex file...
+"..\..\output\GPIO.axf" - 0 Errors, 0 Warning(s).

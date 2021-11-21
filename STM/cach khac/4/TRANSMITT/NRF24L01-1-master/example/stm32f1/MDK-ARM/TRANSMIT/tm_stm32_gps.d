@@ -1,0 +1,3 @@
+transmit\tm_stm32_gps.o: ..\Drivers\tm_stm32fxxx\Src\tm_stm32_gps.c
+transmit\tm_stm32_gps.o: ..\Drivers\tm_stm32fxxx\Inc\tm_stm32_gps.h
+transmit\tm_stm32_gps.o: ..\Drivers\tm_stm32fxxx\Inc\stm32fxxx_hal.h

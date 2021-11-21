@@ -1,0 +1,2 @@
+HFUSE=0xC9
+LFUSE=0xEF

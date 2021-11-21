@@ -1,0 +1,179 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sang tran, mtc, LIC=UB4CX-HH9ZB-VIT5N-Y9FND-FZ8PT-I5W3F
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  F:\program\mdk-arm\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+F:\doccument\my subject\do an\CODE\2\TRANSMIT\MDK-ARM\TRANSMIT.uvprojx
+Project File Date:  09/17/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'F:\program\mdk-arm\ARM\ARMCC\Bin'
+Build target 'TRANSMIT'
+compiling tm_stm32f4_nrf24l01.c...
+..\Src\tm_stm32f4_nrf24l01.c(214): warning:  #223-D: function "TM_GPIO_Init" declared implicitly
+  	TM_GPIO_Init(NRF24L01_CSN_PORT, NRF24L01_CSN_PIN, TM_GPIO_Mode_OUT, TM_GPIO_OType_PP, TM_GPIO_PuPd_UP, TM_GPIO_Speed_Low);
+..\Src\tm_stm32f4_nrf24l01.c(214): error:  #20: identifier "TM_GPIO_Mode_OUT" is undefined
+  	TM_GPIO_Init(NRF24L01_CSN_PORT, NRF24L01_CSN_PIN, TM_GPIO_Mode_OUT, TM_GPIO_OType_PP, TM_GPIO_PuPd_UP, TM_GPIO_Speed_Low);
+..\Src\tm_stm32f4_nrf24l01.c(214): error:  #20: identifier "TM_GPIO_OType_PP" is undefined
+  	TM_GPIO_Init(NRF24L01_CSN_PORT, NRF24L01_CSN_PIN, TM_GPIO_Mode_OUT, TM_GPIO_OType_PP, TM_GPIO_PuPd_UP, TM_GPIO_Speed_Low);
+..\Src\tm_stm32f4_nrf24l01.c(214): error:  #20: identifier "TM_GPIO_PuPd_UP" is undefined
+  	TM_GPIO_Init(NRF24L01_CSN_PORT, NRF24L01_CSN_PIN, TM_GPIO_Mode_OUT, TM_GPIO_OType_PP, TM_GPIO_PuPd_UP, TM_GPIO_Speed_Low);
+..\Src\tm_stm32f4_nrf24l01.c(214): error:  #20: identifier "TM_GPIO_Speed_Low" is undefined
+  	TM_GPIO_Init(NRF24L01_CSN_PORT, NRF24L01_CSN_PIN, TM_GPIO_Mode_OUT, TM_GPIO_OType_PP, TM_GPIO_PuPd_UP, TM_GPIO_Speed_Low);
+..\Src\tm_stm32f4_nrf24l01.c(220): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CSN_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c(223): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CE_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(231): warning:  #223-D: function "TM_SPI_Init" declared implicitly
+  	TM_SPI_Init(NRF24L01_SPI, NRF24L01_SPI_PINS);
+..\Src\tm_stm32f4_nrf24l01.c(231): error:  #20: identifier "SPI3" is undefined
+  	TM_SPI_Init(NRF24L01_SPI, NRF24L01_SPI_PINS);
+..\Src\tm_stm32f4_nrf24l01.c(231): error:  #20: identifier "TM_SPI_PinsPack_2" is undefined
+  	TM_SPI_Init(NRF24L01_SPI, NRF24L01_SPI_PINS);
+..\Src\tm_stm32f4_nrf24l01.c(277): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_FLUSH_TX;
+..\Src\tm_stm32f4_nrf24l01.c(277): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	NRF24L01_FLUSH_TX;
+..\Src\tm_stm32f4_nrf24l01.c(277): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_FLUSH_TX;
+..\Src\tm_stm32f4_nrf24l01.c(278): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_FLUSH_RX;
+..\Src\tm_stm32f4_nrf24l01.c(278): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	NRF24L01_FLUSH_RX;
+..\Src\tm_stm32f4_nrf24l01.c(278): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_FLUSH_RX;
+..\Src\tm_stm32f4_nrf24l01.c(291): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CE_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(293): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CE_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c(326): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CSN_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(327): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_READ_REGISTER_MASK(reg));
+..\Src\tm_stm32f4_nrf24l01.c(327): error:  #20: identifier "SPI3" is undefined
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_READ_REGISTER_MASK(reg));
+..\Src\tm_stm32f4_nrf24l01.c(329): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CSN_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c(335): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CSN_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(336): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_READ_REGISTER_MASK(reg));
+..\Src\tm_stm32f4_nrf24l01.c(336): error:  #20: identifier "SPI3" is undefined
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_READ_REGISTER_MASK(reg));
+..\Src\tm_stm32f4_nrf24l01.c(337): warning:  #223-D: function "TM_SPI_ReadMulti" declared implicitly
+  	TM_SPI_ReadMulti(NRF24L01_SPI, data, NRF24L01_NOP_MASK, count);
+..\Src\tm_stm32f4_nrf24l01.c(338): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CSN_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c(342): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CSN_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(343): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_WRITE_REGISTER_MASK(reg));
+..\Src\tm_stm32f4_nrf24l01.c(343): error:  #20: identifier "SPI3" is undefined
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_WRITE_REGISTER_MASK(reg));
+..\Src\tm_stm32f4_nrf24l01.c(345): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CSN_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c(349): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CSN_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(350): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_WRITE_REGISTER_MASK(reg));
+..\Src\tm_stm32f4_nrf24l01.c(350): error:  #20: identifier "SPI3" is undefined
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_WRITE_REGISTER_MASK(reg));
+..\Src\tm_stm32f4_nrf24l01.c(351): warning:  #223-D: function "TM_SPI_WriteMulti" declared implicitly
+  	TM_SPI_WriteMulti(NRF24L01_SPI, data, count);
+..\Src\tm_stm32f4_nrf24l01.c(352): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CSN_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c(362): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CE_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(364): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	NRF24L01_FLUSH_RX;
+..\Src\tm_stm32f4_nrf24l01.c(364): error:  #20: identifier "SPI3" is undefined
+  	NRF24L01_FLUSH_RX;
+..\Src\tm_stm32f4_nrf24l01.c(364): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_FLUSH_RX;
+..\Src\tm_stm32f4_nrf24l01.c(370): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CE_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c(374): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CE_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(375): error:  #20: identifier "Bit_RESET" is undefined
+  	TM_NRF24L01_WriteBit(NRF24L01_REG_CONFIG, NRF24L01_PWR_UP, Bit_RESET);
+..\Src\tm_stm32f4_nrf24l01.c(382): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CE_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(388): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	NRF24L01_FLUSH_TX;
+..\Src\tm_stm32f4_nrf24l01.c(388): error:  #20: identifier "SPI3" is undefined
+  	NRF24L01_FLUSH_TX;
+..\Src\tm_stm32f4_nrf24l01.c(388): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_FLUSH_TX;
+..\Src\tm_stm32f4_nrf24l01.c(393): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_W_TX_PAYLOAD_MASK);
+..\Src\tm_stm32f4_nrf24l01.c(393): error:  #20: identifier "SPI3" is undefined
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_W_TX_PAYLOAD_MASK);
+..\Src\tm_stm32f4_nrf24l01.c(395): warning:  #223-D: function "TM_SPI_WriteMulti" declared implicitly
+  	TM_SPI_WriteMulti(NRF24L01_SPI, data, count);
+..\Src\tm_stm32f4_nrf24l01.c(397): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CSN_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c(405): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CSN_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(407): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_R_RX_PAYLOAD_MASK);
+..\Src\tm_stm32f4_nrf24l01.c(407): error:  #20: identifier "SPI3" is undefined
+  	TM_SPI_Send(NRF24L01_SPI, NRF24L01_R_RX_PAYLOAD_MASK);
+..\Src\tm_stm32f4_nrf24l01.c(409): warning:  #223-D: function "TM_SPI_SendMulti" declared implicitly
+  	TM_SPI_SendMulti(NRF24L01_SPI, data, data, TM_NRF24L01_Struct.PayloadSize);
+..\Src\tm_stm32f4_nrf24l01.c(411): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CSN_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c(434): warning:  #223-D: function "TM_GPIO_SetPinLow" declared implicitly
+  	NRF24L01_CSN_LOW;
+..\Src\tm_stm32f4_nrf24l01.c(436): warning:  #223-D: function "TM_SPI_Send" declared implicitly
+  	status = TM_SPI_Send(NRF24L01_SPI, NRF24L01_NOP_MASK);
+..\Src\tm_stm32f4_nrf24l01.c(436): error:  #20: identifier "SPI3" is undefined
+  	status = TM_SPI_Send(NRF24L01_SPI, NRF24L01_NOP_MASK);
+..\Src\tm_stm32f4_nrf24l01.c(438): warning:  #223-D: function "TM_GPIO_SetPinHigh" declared implicitly
+  	NRF24L01_CSN_HIGH;
+..\Src\tm_stm32f4_nrf24l01.c: 44 warnings, 16 errors
+"TRANSMIT\TRANSMIT.axf" - 16 Error(s), 44 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_TRANSMIT
+  F:\program\mdk-arm\ARM\CMSIS\5.3.0\CMSIS\Include
+  F:\program\mdk-arm\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
